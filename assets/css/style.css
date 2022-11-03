@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Poor+Story&display=swap');
 
 * {
-    background-color: black;
-    color: rgb(142, 142, 224);
+    background-image: url(../images/b-space.webp);
+    background-attachment: fixed;
+    background-position: center;
+    color: rgb(149, 149, 228);
 }
 
 /* Header */
@@ -20,6 +22,12 @@ header {
     align-self: center;
 }
 
+/* Results scores */
+.results {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 /* Styling selections part of the game */
 .selections {
     display: flex;
@@ -32,7 +40,6 @@ header {
     background: none;
     border: none;
     outline: none;
-    
 }
 
 .game-selection {
@@ -41,8 +48,11 @@ header {
     border-radius: 50%;
 }
 
-/* Results scores */
-.results {
-    display: flex;
-    justify-content: end;
+.game-selection:hover {
+    transform: scale(1.4);
+    transition: 200ms;
+}
+/* Image of what each player picked to play during combat */
+.combat-screen {
+    height: 480px;
 }

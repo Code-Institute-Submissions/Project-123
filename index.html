@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://kit.fontawesome.com/ff7463a330.js" crossorigin="anonymous"></script>
     <title>RPS - Fire & Water</title>
 </head>
 <body>
@@ -12,10 +13,25 @@
     <header>
         <h1>RPS - Fire & Water</h1>
         <div class="game-options">
-            <button>Rules</button>
-            <button>Restart</button>
+            <button><i class="fa-solid fa-question"></i></button>
+            <button><i class="fa-solid fa-rotate-left"></i></button>
         </div>
     </header>
+     <!--Result scores-->
+     <div class="results">
+        <div>
+            You:
+            <span class="score-result">0</span>
+        </div>
+        <div>
+            Computer:
+            <span class="score-result">0</span>
+        </div>
+    </div>
+    <!--Image of what each player picked to play during combat-->
+    <div class="combat-screen">
+        -
+    </div>
     <!--Different selections to play during combat-->
     <div class="selections">
         <button class="selection">
@@ -34,18 +50,6 @@
             <img class="game-selection" src="assets/images/water.png" alt="water">
         </button>
     </div>
-    <!--Result scores-->
-    <div class="results">
-        <div>
-            You
-            <span class="score-result">0</span>
-        </div>
-        <div>
-            Computer
-            <span class="score-result">0</span>
-        </div>
-    </div>
-    <!--Image of what each player picked to play during combat-->
     <script src="assets/js/script.js"></script>
 </body>
 </html>
