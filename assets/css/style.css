@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Poor+Story&display=swap');
+
+* {
+    background-color: orange;
+    color: rgb(142, 142, 224);
+}
+
+/* Styling selections part of the game */
+.selections {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.selection {
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.game-selection {
+    width: 6vw;
+    height: 10vh;
+}
